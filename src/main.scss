@@ -35,6 +35,10 @@ header {
     font-size: 14px;
     line-height: 22px;
     color: #4e4e4e;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
 }
 
 .links {
